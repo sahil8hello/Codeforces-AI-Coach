@@ -99,8 +99,4 @@ codeforces-ai-coach/
 - Your API key is stored locally in Chrome and is never sent anywhere except Google's API
 - This project uses Gemini's free tier — standard rate limits apply
 
----
 
-## License
-
-MIT
