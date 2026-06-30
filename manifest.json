@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "Codeforces AI Coach",
+  "version": "1.0",
+  "description": "Analyzes Codeforces problems and gives strategic hints using Gemini.",
+  "permissions": [
+    "sidePanel",
+    "scripting",
+    "storage"
+  ],
+  "host_permissions": [
+    "https://generativelanguage.googleapis.com/*",
+    "*://*.codeforces.com/*"
+  ],
+  "side_panel": {
+    "default_path": "sidebar.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Open AI Coach"
+  }
+}

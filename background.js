@@ -1,0 +1,2 @@
+// This tells Chrome to open the sidebar when the user clicks the extension icon in the toolbar
+chrome.sidePanel.setPanelBehavior({ openPanelOnActionClick: true }).catch((error) => console.error(error));
