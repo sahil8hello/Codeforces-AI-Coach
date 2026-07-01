@@ -1,3 +1,5 @@
+(unzip the fonts folder before running)
+
 # Codeforces AI Coach
 
 A Chrome extension that gives you progressive, AI-powered hints for Codeforces problems — without spoiling the solution. Powered by Google Gemini and rendered with KaTeX for clean math output.
